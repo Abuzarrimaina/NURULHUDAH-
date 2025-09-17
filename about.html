@@ -6,33 +6,79 @@
   <title>About Nurul Hudah</title>
   <style>
     body {
-      background-image: url('mosque.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
+      margin: 0;
       font-family: Arial, sans-serif;
-      color: white;
-      padding: 20px;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+    header {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s;
+    }
+    header a:hover {
+      border-bottom: 2px solid #f4c20d;
     }
     .container {
-      background-color: rgba(0, 0, 0, 0.6); /* dark transparent background for readability */
       max-width: 700px;
       margin: auto;
-      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
       border-radius: 10px;
     }
     h1 {
       text-align: center;
-      margin-bottom: 15px;
+    margin-bottom: 20px;
+      font-size: 2.5em;
     }
     p {
-      line-height: 1.5;
-      font-size: 18px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    em {
+      font-style: italic;
+      color: #f4c20d;
+    }
+    strong {
+      color: #f4c20d;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>About Nurul Hudah</h1>
-    <p>Welcome to <strong>Nurul Hudah</strong>, a platform dedicated to sharing authentic Islamic knowledge through the lectures and teachings of the Imams of Sunnah.</p>Here’s a full simple `about.html` with your background image and content:
+  <div class="overlay">
+    <header>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </header>
+    <div class="container">
+      <h1>About Nurul Hudah</h1>
+      <p>Welcome to <strong>Nurul Hudah</strong>, a platform dedicated to sharing authentic Islamic knowledge through the lectures and teachings of the Imams of Sunnah.</p>
+      <p>Our goal is to spread the light of guidance (<em>nur al-hudah</em>) by providing easy access to audio, video, and written lectures from respected scholars who follow the path of the Sunnah.</p>
+      <p>We aim to educate, inspire, and remind our Muslim brothers and sisters about the importance of following the Qur'an and the Sunnah with understanding from the early generations.</p>
+      <p>May Allah grant us sincerity and keep us firm on the truth. Ameen.</p>
+      <p><strong>Jazakum Allahu Khayran</strong> for visiting.</p>
+    </div>
+  </div>
+</body>
+</html>
+
 
