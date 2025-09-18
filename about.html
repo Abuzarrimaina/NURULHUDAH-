@@ -2,41 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Nurul Hudah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - NURUL HUDAH</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: url('background.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 0;
+    }
+
+    .site-title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #00796b;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      width: 350px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      overflow: hidden;
       text-align: center;
     }
-    .container {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 30px;
-      margin: 50px auto;
-      max-width: 800px;
-      border-radius: 10px;
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
     }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+
+    .card h2 {
+      margin: 20px 0 10px;
+      font-size: 22px;
+      color: #333;
     }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
+
+    .card p {
+      padding: 0 20px 20px;
+      font-size: 16px;
+      color: #555;
+      line-height: 1.4;
     }
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>About Nurul Hudah</h1>
-    <p>Welcome to <strong>Nurul Hudah</strong> – a platform for sharing lectures of the noble scholar <strong>Malam Ahmad Tijjani Yusuf Guruntum</strong>.</p>
-    <p>Our goal is to spread the light of the Sunnah by providing access to audio, video, and written content from scholars who follow the path of the Prophet (peace be upon him).</p><p>May Allah reward you for visiting and guide us all on the straight path.</p>
+<body><div class="site-title">NURUL HUDAH</div>
+
+  <div class="card">
+    <img src="background.jpg" alt="Sheikh Ahmad Tijjani Yusuf Guruntum" />
+    <h2>Sheikh Ahmad Tijjani Yusuf Guruntum</h2>
+    <p>
+      A respected scholar dedicated to teaching the Qur’an and Sunnah.  
+      Founder of Nurul Hudah, a platform to spread authentic Islamic knowledge.
+    </p>
   </div>
+
 </body>
 </html>
 
