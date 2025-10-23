@@ -1,158 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Nurul Hudah</title>
-<style>
-  body {
-    margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f4f8; color: #333;
-  }
-  header {
-    background: #14533a; 
-    color: white; 
-    padding: 20px 0; 
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  header h1 {
-    margin: 0;
-    font-size: 2rem;
-    letter-spacing: 2px;
-  }
-  header p {
-    margin: 5px 0 0;
-    font-size: 1rem;
-    font-weight: 500;
-  }
-  main {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 0 15px;
-  }
-  .poster {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgb(0 0 0 / 0.15);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  .poster:hover {
-    transform: scale(1.03);
-  }
-  .poster img {
-    width: 100%;display: block;
-  }
-  .poster-text {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family: 'Georgia', serif;
-    font-size: 2.4rem;
-    font-weight: bold;
-    margin-top: -90px;
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
-  }
-  .poster-subtext {
-    font-size: 1rem;
-    margin-top: 5px;
-    font-weight: normal;
-  }
-  .explore-btn {
-    display: inline-block;
-    background: #1649f6;
-    color: white;
-    padding: 12px 24px;
-    margin-top: 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-  }
-  .explore-btn:hover {
-    background-color: #0f36c4;
-  }
-  section.connect {
-    background: #e3f1ec;
-    text-align: center;
-    padding: 30px 15px;
-    border-radius: 10px;
-    margin: 40px auto;
-    max-width: 500px;
-  }
-  section.connect h2 {
-    font-weight: 800;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #222;
-  }
-  section.connect a {
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: #14533a;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-  }
-  section.connect a:hover {
-    color: #0d3f27;
-    text-decoration: underline;
-  }
-  footer {
-    background: #14533a;
-    color: white;
-    text-align: center;padding: 15px 0;
-    font-size: 0.9rem;
-  }
-  /* WhatsApp icon */
-  .whatsapp-icon {
-    width: 20px;
-    height: 20px;
-    fill: #25D366;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nurul Hudah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #14533a;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .poster {
+      position: relative;
+      text-align: center;
+    }
+    .poster img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .btn {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #0047ab;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+}
+    .connect {
+      background: #e6f7f1;
+      padding: 30px 15px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+    .connect h2 {
+      margin-bottom: 10px;
+    }
+    .connect a {
+      color: #14533a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      background: #14533a;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-  <h1>NURUL HUDAH</h1>
-  <p>Spreading the light of authentic Islamic knowledge</p>
-</header>
+  <header>
+    <h1>NURUL HUDAH</h1>
+    <p>Spreading the light of authentic Islamic knowledge</p>
+  </header>
 
-<main>
-  <a href="#lectures" class="poster" id="exploreLecturesBtn" aria-label="Explore Lectures">
-    <img src="poster.jpg" alt="Nurul Hudah Mosque" />
-    <div class="poster-text">
-      Nurul Hudah
-      <div class="poster-subtext">Spreading the Light of Authentic Islamic Knowledge</div>
+  <main>
+    <div class="poster">
+      <img src="poster.jpg" alt="Nurul Hudah Poster" />
+      <a href="#" class="btn">Explore Lectures</a>
     </div>
-  </a>
 
-  <section class="connect" id="lectures">
-    <h2>Get Connected</h2>
-    <a href="https://chat.whatsapp.com/IIpibuFporg6CQjjjXcYGr?mode=ems_wa_t" target="_blank" rel="noopener noreferrer">
-      <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20.52 3.48A11.85 11.85 0 0012.15.2c-6.51 0-11.81 5.32-11.81 11.87 0 2.1.55 4.14 1.59 5.95L.5 23.08l5.16-1.7a11.83 11.83 0 006.46 1.95h.01c6.52 0 11.82-5.31 11.82-11.87a11.8 11.8 0 00-3.43-8.88zM12.2 21.3a9.21 9.21 0 01-4.69-1.3l-.33-.2-3.06 1 1-3.04-.21-.34a9.07 9.07 0 01-1.4-4.66c0-5.02 4.1-9.1 9.17-9.1 2.45 0 4.75.95 6.47 2.68a9.12 9.12 0 012.7 6.46c0 5.02-4.1 9.1-9.16 9.1zm5.06-7.2c-.27-.13-1.59-.78-1.84-.87-.25-.08-.43-.13-.62.13-.18.27-.7.87-.86 1.05-.16.18-.31.2-.58.07a7.25 7.25 0 01-2.14-1.3 8.15 8.15 0 01-1.51-1.87c-.16-.27-.02-.41.12-.54.13-.13.27-.3.4-.45.14-.15.18-.25.27-.42.08-.18.04-.33-.02-.46-.07-.13-.62-1.5-.85-2.05-.22-.54-.44-.47-.62-.48-.16 0-.33 0-.5 0-.16 0-.43.06-.66.33-.23.27-.87.85-.87 2.06 0 1.2.9 2.36 1.03 2.52.13.18 1.78 2.7 4.3 3.78.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.59-.65 1.82-1.28.23-.63.23-1.18.16-1.28-.07-.12-.25-.18-.52-.3z"/>
-      </svg>
-      Join Our WhatsApp Group
-    </a>
-  </section>
-</main>
+    <div class="connect">
+      <h2>Get Connected</h2>
+      <a href="https://chat.whatsapp.com/IIpibuFporg6CQjjjXcYGr?mode=ems_wa_t" target="_blank">
+        Join Our WhatsApp Group
+      </a>
+    </div>
+  </main>
 
-<footer>
-  &copy; 2025 Nurul Hudah Sunnah Media. All rights reserved.
-</footer>
-
-<script>
-  // Smooth scroll for the Explore Lectures button
-  document.getElementById('exploreLecturesBtn').addEventListener('click', function(e) {
-    e.preventDefault();document.getElementById('lectures').scrollIntoView({ behavior: 'smooth' });
-  });
-</script>
+  <footer>
+    © 2025 Nurul Hudah Sunnah Media. All rights reserved.
+  </footer>
 
 </body>
 </html>
-
+ 
