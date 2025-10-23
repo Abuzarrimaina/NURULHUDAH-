@@ -1,108 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nurul Hudah</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f0f4f8;
-      color: #333;
-    }
-    header {
-      background: #14533a;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      letter-spacing: 2px;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1rem;
-      font-weight: 500;
-    }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 0 15px;
-    }
-    .poster {
-      position: relative;
-      text-align: center;
-    }
-    .poster img {
-      width: 100%;
-      border-radius: 10px;
-    }
-    .btn {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #0047ab;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-}
-    .connect {
-      background: #e6f7f1;
-      padding: 30px 15px;
-      text-align: center;
-      border-radius: 8px;
-      margin-top: 30px;
-    }
-    .connect h2 {
-      margin-bottom: 10px;
-    }
-    .connect a {
-      color: #14533a;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    footer {
-      background: #14533a;
-      color: white;
-      text-align: center;
-      padding: 15px 10px;
-      margin-top: 30px;
-      font-size: 0.9rem;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nurul Hudah</title>
+<style>
+  body {
+    margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8; color: #333;
+  }
+  header {
+    background: #14533a; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+  .poster img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #14533a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .connect {
+    background: #d9ecec;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .connect h2 {
+    margin-bottom: 10px;
+  }
+  .connect a {
+    color: #14533a; 
+font-weight: bold;
+    text-decoration: none;
+  }
+  section {
+    margin-top: 40px;
+  }
+  section h2 {
+    color: #14533a;
+    border-bottom: 2px solid #14533a;
+    padding-bottom: 8px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 8px;
+  }
+  footer {
+    text-align: center;
+    background: #14533a;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+</style>
 </head>
 <body>
 
-  <header>
-    <h1>NURUL HUDAH</h1>
-    <p>Spreading the light of authentic Islamic knowledge</p>
-  </header>
+<header>
+  <h1>NURUL HUDAH</h1>
+  <p>Spreading the light of authentic Islamic knowledge</p>
+</header>
 
-  <main>
-    <div class="poster">
-      <img src="poster.jpg" alt="Nurul Hudah Poster" />
-      <a href="#" class="btn">Explore Lectures</a>
-    </div>
+<main>
+  <div class="poster">
+    <img src="poster.jpg" alt="Nurul Hudah Islamic Knowledge" />
+    <a href="#" class="btn">Explore Lectures</a>
+  </div>
 
-    <div class="connect">
-      <h2>Get Connected</h2>
-      <a href="https://chat.whatsapp.com/IIpibuFporg6CQjjjXcYGr?mode=ems_wa_t" target="_blank">
-        Join Our WhatsApp Group
-      </a>
-    </div>
-  </main>
+  <div class="connect">
+    <h2>Get Connected</h2>
+    <a href="https://chat.whatsapp.com/IIpibuFporg6CQjjjXcYGr?mode=ems_wa_t" target="_blank" rel="noopener noreferrer">
+      Join Our WhatsApp Group
+    </a>
+  </div>
 
-  <footer>
-    © 2025 Nurul Hudah Sunnah Media. All rights reserved.
-  </footer>
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>Nurul Hudah is dedicated to spreading authentic Islamic knowledge and teachings to the community through lectures, discussions, and online resources.</p>
+  </section>
+
+  <section id="lectures">
+    <h2>Lectures List</h2>
+    <ul>
+      <li><a href="#">Understanding the Quran</a></li>
+  <li><a href="#">The Life of Prophet Muhammad (PBUH)</a></li>
+      <li><a href="#">Islamic Ethics and Morality</a></li>
+      <li><a href="#">The Pillars of Islam Explained</a></li>
+      <li><a href="#">Introduction to Hadith Studies</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@nurulhudah.org</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+</main>
+
+<footer>
+  © 2025 Nurul Hudah Sunnah Media. All rights reserved.
+</footer>
 
 </body>
 </html>
- 
