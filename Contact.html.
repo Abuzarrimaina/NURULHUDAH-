@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Nurul Hudah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #14533a;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      background: #14533a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    main {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 0 15px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #14533a;
+      text-align: center;
+    }
+    .contact-info {
+      font-size: 1.1rem;
+      margin-top: 20px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .contact-info a {
+      color: #14533a;
+text-decoration: none;
+      font-weight: 600;
+    }
+    .whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      font-weight: 600;
+      color: #25D366;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .whatsapp svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nurul Hudah</h1>
+  </header>
 
+  <nav>
+    <a href="index.html">Lectures</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Contact Us</h2>
+    <p class="contact-info">
+      Phone: +2348038599002 <br />
+      <a class="whatsapp" href="https://chat.whatsapp.com/IIpibuFporg6CQjjjXcYGr?mode=ems_wa_t" target="_blank" rel="noopener noreferrer">
+        <!-- WhatsApp Icon SVG -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+<path d="M20.52 3.48A11.92 11.92 0 0012 0C5.37 0 0 5.37 0 12a11.9 11.9 0 001.67 6.02L0 24l6-1.62a11.92 11.92 0 005.98 1.62c6.63 0 12-5.37 12-12 0-3.2-1.24-6.19-3.48-8.52zm-8.32 17.88a9.79 9.79 0 01-5.05-1.42l-.36-.22-3.05.82.82-2.97-.23-.38a9.8 9.8 0 116.87 3.17zm5.13-6.77c-.28-.14-1.63-.8-1.88-.9-.25-.1-.43-.14-.61.14-.17.28-.68.9-.83 1.08-.15.17-.3.19-.57.07-.27-.14-1.13-.42-2.15-1.32-.79-.7-1.32-1.57-1.48-1.84-.15-.28-.02-.43.13-.57.14-.14.28-.3.42-.45.14-.15.19-.25.28-.42.09-.17.04-.31-.02-.45-.06-.14-.61-1.47-.83-2.02-.22-.53-.44-.46-.61-.47-.17-.01-.37-.01-.57-.01-.19 0-.5.07-.76.37-.26.3-1 1-1 2.43 0 1.43 1.03 2.81 1.17 3.01.14.2 2.02 3.08 4.9 4.31.68.29 1.21.46 1.62.59.68.2 1.3.17 1.79.1.55-.08 1.63-.66 1.86-1.29.23-.63.23-1.17.16-1.29-.07-.12-.25-.19-.53-.33z"/>
+        </svg>
+        Join WhatsApp Group
+      </a>
+    </p>
+  </main>
+</body>
+</html>
