@@ -2,56 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nurul Hudah - Lectures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nurul Hudah</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f0f4f8;
       color: #333;
     }
     header {
-      background: #14533a;
+      background-color: #14533a;
       color: white;
-      padding: 20px 0;
+      padding: 20px;
       text-align: center;
     }
     nav {
-      background: #0d3b2e;
-      text-align: center;
+      background-color: #0e3b29;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
     }
     nav a {
-      display: inline-block;
-      padding: 15px 20px;
       color: white;
+      margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
     nav a:hover {
-      background: #0b2d24;
+      text-decoration: underline;
     }
-    main {
-      max-width: 800px;
+    .container {
+      max-width: 900px;
       margin: 30px auto;
-      padding: 0 20px;
+      padding: 0 15px;
     }
-    .coming-soon {
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .coming-soon h2 {
-      color: #14533a;
+    section {
+      margin-bottom: 40px;
     }
     footer {
-      text-align: center;
       background: #14533a;
       color: white;
-      padding: 10px 0;
-      margin-top: 40px;
+      text-align: center;
+      padding: 15px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .whatsapp-link {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -59,7 +64,7 @@
 
   <header>
     <h1>Nurul Hudah</h1>
- <p>Spreading the light of authentic Islamic knowledge</p>
+    <p>Spreading the Light of Authentic Islamic Knowledge</p>
   </header>
 
   <nav>
@@ -68,17 +73,29 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <main>
-    <div class="coming-soon">
-      <h2>Lectures Coming Soon!</h2>
-      <p>Get ready for powerful and enlightening Islamic lectures that will uplift your soul and increase your knowledge, in shaa Allah.</p>
-    </div>
-  </main>
+  <div class="container">
+    <section>
+      <h2>Latest Lectures</h2>
+      <p>Find our recent lectures and programs below:</p>
+      <ul>
+        <li>Darasi na 009 – Al-Khilaf Baynal Ulama - Prof. Isah Ali Pantami</li>
+        <li>Darasi na 008 – Understanding Ikhtilaf</li>
+        <li>Darasi na 007 – Foundations of Unity in Islam</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Join Our WhatsApp Group</h2>
+      <p>Stay connected with Nurul Hudah updates:</p>
+      <a class="whatsapp-link" href="https://chat.whatsapp.com/IIpibuFporg6CQjjjXcYGr?mode=ems_wa_t" target="_blank">
+        Join on WhatsApp
+      </a>
+    </section>
+  </div>
 
   <footer>
-    © 2025 Nurul Hudah Sunnah Media. All rights reserved.
+    <p>&copy; 2025 Nurul Hudah. All rights reserved.</p>
   </footer>
 
 </body>
 </html>
-   
