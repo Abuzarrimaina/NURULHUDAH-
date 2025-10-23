@@ -3,99 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lectures - Nurul Hudah</title>
+  <title>Nurul Hudah</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
       margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
     }
     header {
-      background-color: #14533a;
+      background: #14533a;
       color: white;
-      padding: 20px;
+      padding: 15px 0;
       text-align: center;
     }
     nav {
-      background-color: #0e3b28;
+      background: #0d2f23;
       display: flex;
       justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
     }
     nav a {
       color: white;
       text-decoration: none;
-      padding: 15px 20px;
-    }
-    nav a:hover {
-      background-color: #1d5c42;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: white;
-      border-radius: 6px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 15px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #eee;
       font-weight: bold;
     }
-    .download-btn {
-      background-color: #25D366;
-      color: white;
-      padding: 8px 15px;
-      border: none;
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .lecture-list {
+      background: white;
+      padding: 20px;
       border-radius: 5px;
-      text-decoration: none;
-      font-size: 14px;
+    }
+    .lecture-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #14533a;
+      color: white;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Nurul Hudah</h1>
+ <h1>Nurul Hudah</h1>
     <p>Spreading the light of authentic Islamic knowledge</p>
   </header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="lectures.html">Lectures</a>
+    <a href="index.html">Lectures</a>
     <a href="about.html">About Us</a>
     <a href="contact.html">Contact</a>
   </nav>
 
-  <div class="container">
-    <table>
-      <thead>
-        <tr>
-          <th>Filename</th>
-          <th>Size</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- You will add lecture rows here like the example below -->
-        <!--
-        <tr>
-          <td>001 - Umdatul Fiqh</td>
-          <td>12.5 MB</td>
-          <td><a href="#" class="download-btn">Download ↓</a></td>
-        </tr>
-        -->
-      </tbody>
-    </table>
-  </div>
+  <main>
+    <section class="lecture-list">
+      <h2>Available Lectures</h2>
+
+      <div class="lecture-item">
+        <span>016 Tafsir Suratul A'araf.mp3</span>
+        <span>17.57MB</span>
+      </div>
+
+      <!-- Add more lectures below in the same format -->
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Nurul Hudah. All rights reserved.
+  </footer>
 
 </body>
 </html>
+   
